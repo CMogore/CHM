@@ -1,0 +1,582 @@
+*{
+    font-family: "Roboto", sans-serif;
+  
+}
+.homepage{
+    background-image: url("../images/Untitled.jpeg");
+    background-position: center; 
+    height:85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    .logo{
+        height: 90px;
+        padding-left: 100px;
+        margin-top: 15px;
+
+    }
+    .top-bar{
+        background-color: transparent;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    
+        
+        .top-bar-right > .menu{
+            background-color: inherit; 
+            color:white; 
+            margin-top: -100px;
+            margin-left: 300px;
+            padding-right: 100px;
+            padding-top: -40px;;
+
+
+
+            .home{
+                color:orange;
+                border-bottom: 1.5px solid rgb(247,151,33);
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                        
+            }
+            
+    
+        }
+        
+        .menu li a{
+            color: white;
+
+        }
+        
+        
+        .button{
+            color: white;
+            margin-top: -140px;
+            
+            border-radius: 20px;
+            padding-left: 25px;
+            padding-right: 25px;
+
+        }
+    
+        
+    }
+    .content{
+        color:white;
+        text-align: center;
+        font-size: 80px;
+        font-weight: 700;
+        margin-top: 160px;
+
+      .strong{
+        color:orange;
+        border-bottom: 2px dashed orange;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }  
+        
+        
+    }
+    .down{
+        border:2px dashed white;
+        border-radius: 40px;
+        color:white;
+        padding: 10px;
+        font-size:25px
+       
+        
+
+    }
+}
+.wave-container {
+    width: 200px; /* Adjust width of the wave container */
+    height: 800px; /* Adjust height of the wave container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+
+}
+
+.wave-svg {
+    width: 100%;
+    height: auto;
+}
+
+.wave-path {
+    fill: none;
+            stroke: orange; /* Color of the wave */
+            stroke-width: 1; /* Width of the wave */
+            stroke-dasharray: 3 3; /* Length of dashes and gaps */
+            stroke-linecap: round; /* Rounded line ends */
+}
+.aboutus{
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+    .fa-message{
+        color:white;
+        padding:15px;
+        margin-left:1250px;
+        background-color: orange;
+        border:2px solid orange;
+        border-radius: 40px;
+        transform: rotate(-10deg);
+        font-size:25px;
+        
+       
+    }
+    .first{
+        margin-top: 40px;
+        padding-left:100px;
+
+        .top{
+            font-weight: 300;
+            font-style: normal;
+            font-size: 16px;
+            letter-spacing: 0.4em;
+            color:rgb(75, 75, 75)
+
+        }
+        .sub{
+            font-size: 25px;
+            font-weight: 500;
+            font-style: normal;
+            word-spacing: 0.4rem;
+        }
+        p{
+            color:rgb(75, 75, 75);
+            font-size:15px
+        }
+        .par{
+            padding-bottom: 30px;
+        }
+        button{
+            color: white;
+            background-color: rgb(249,174,48);
+            border-radius: 20px;
+            padding-left: 25px;
+            padding-right: 25px;
+            font-weight: 500;
+            font-style: normal;
+
+        }
+    }
+    .second{
+        margin-top: 80px;
+        img{
+            width: 480px;
+            height: 300px;
+            
+        }
+    }
+    
+}
+.services{
+    padding-top: 100px;
+    .top{
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        letter-spacing: 0.2em;
+
+        color:rgb(62, 62, 62)
+
+    }
+    .sub{
+        font-size: 25px;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 40px;
+        word-spacing: 0.2em;
+
+    }
+    .img{
+        width: 50px;
+        height:50px;
+    }
+    
+    .orbit-container{
+        display:flex;
+        flex-direction: column;
+
+
+    }
+    .orbit-bullets button {
+        background-color: #ccc;
+        width: 10px; /* Adjust bullet width */
+        height: 10px; /* Adjust bullet height */
+        border-radius: 50%;
+        margin: 0 5px; /* Adjust spacing between bullets */
+        padding: 0;
+    }
+    .orbit-bullets button.is-active {
+        background-color: #333; /* Active bullet color */
+    }
+    .orbit-slide{
+        display:flex;
+        flex-direction: column;
+        display: block;
+        margin-left: 50px;
+            
+
+        .card{
+            width: 320px;
+            height: 330px;
+            border-radius: 10px;
+            
+        }
+    }
+    
+}
+.more{
+    .top{
+        font-weight: 300;
+        font-style: normal;
+        font-size: 16px;
+        letter-spacing: 0.4em;
+        color:rgb(75, 75, 75)
+
+    }
+    .sub{
+        font-size: 25px;
+        font-weight: 500;
+        font-style: normal;
+        word-spacing: 0.4rem;
+        padding-bottom: 50px;
+    }
+    .second{
+        margin-top: -10px;
+        padding-left:10px;
+
+        .top1{
+            font-size: 25px;
+            font-weight: 500;
+            font-style: normal;
+
+            
+
+        }
+        .sub1{
+            margin-top: -10px;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 16px;
+            color:rgb(75, 75, 75)
+        }
+        p{
+            color:rgb(75, 75, 75);
+            font-size:15px
+        }
+        
+        .room{
+            color: orange;
+            font-weight: 500;
+            font-style: normal;
+            font-size:20px
+
+        }
+        .fa-solid{
+            font-size: 12px;
+        }
+        .one{
+            color: orange;
+        }
+    }
+    .first{
+        margin-top: 0px;
+        img{
+            width: 500px;
+            height: 380px;
+            
+        }
+        .a{
+            margin-left:200px;
+            margin-top:-60px;
+            color:white;
+            border-bottom:2px solid white;
+            padding-left: 5px;
+
+        .fa{
+            padding-left: 10px;
+            transform: rotate(-40deg);
+        }
+
+        }
+    }
+    .part2{
+        margin-top:40px;
+        padding-bottom: 40px;
+        padding-left: 10px;
+
+        img{
+            border-radius: 10px;
+            height:200px
+        }
+        p{
+            margin-top: -60px;
+            color:white;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 18px;
+            padding-left: 20px;
+        }
+    }
+    
+
+}
+.properties{
+    background-color:rgb(2,92,80) ;
+    color:white;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+    .ch{
+        font-size:15px;
+        opacity:0.4;
+
+    }
+
+    .cs{
+        font-weight: 300;
+        font-style: normal;
+        font-size: 16px;
+        letter-spacing: 0.4em;
+    }
+    .prop{
+        font-size: 25px;
+            font-weight: 500;
+            font-style: normal;
+
+    }
+    .dm{
+        font-size:10px;
+        opacity:0.4;
+        padding-bottom: 30px;
+    }
+    .sub{
+        font-size: 15px;
+    }
+    .part2{
+        padding-left: 100px;
+        padding-right: 100px;
+        position: relative;
+        
+        img{
+
+            width:220px;
+            height: 220px;
+            
+        }
+        .fa{
+            margin-top: 10px;
+            position: absolute;
+            margin-left: -30px;
+        }
+       
+    }
+    button{
+        color: white;
+        background-color: rgb(249,174,48);
+        border-radius: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: 500;
+        font-style: normal;
+        margin-left: 20px;
+        margin-top: 50px;
+
+    }
+    .but{
+        color:white;
+    }
+
+}
+.cont{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    .first{
+        .pls{
+            font-size: 28px;
+            font-weight: 300;
+            font-style: normal;
+            line-height: 32px;
+
+        }
+        .us{
+            color:orange;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 18px;
+        }
+    }
+    .second{
+        margin-top: 100px;
+        margin-left: 50px;
+        .top{
+            font-size: 28px;
+            font-weight: 500;
+            font-style: normal;
+
+        }
+        .form-input {
+            border: none; /* Remove default input border */
+            border-bottom: 1px solid rgb(151, 151, 151); /* Add bottom border */
+            margin-bottom: 1rem; /* Add spacing between input fields */
+            width: 80%; /* Full width for input fields */
+            padding: 5px; /* Add padding inside input fields */
+            background-color: transparent;
+            box-shadow: none;
+            color:black
+        }
+
+        /* Center align the submit button */
+        .form-submit {
+            text-align: center;
+            
+        }
+        .forms{
+            font-size: 10px;
+            color:grey
+        }
+        .button{
+            color: white;
+        background-color: rgb(249,174,48);
+        border-radius: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: 500;
+        font-style: normal;
+        margin-left: -420px;
+        }
+
+    }
+}
+.others{
+    background-color:rgb(2,92,80) ;
+    text-align: center;
+    color:white;
+    padding-bottom: 40px;
+    font-family: "Roboto";
+
+    .weight{
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+
+    .image{
+        
+        margin-top: 50px;
+        height:100px;
+        padding-bottom: 10px;  
+        
+    } 
+    hr{
+        color:white;
+        border-top-width: 1px;
+        /* margin:0 */
+
+    }
+    
+    .second{
+        padding-top: 40px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        
+        .one,.two,.three{
+            padding-left:10px;
+            
+        }
+        .nai{
+            margin-left:-55px
+        }
+        .align{
+            text-align: left;
+            margin-left: 35px;
+
+        }
+        .input-with-button {
+            position: relative;
+            display: inline-block;
+        }
+        .buttons{
+            background-color: rgb(249,174,48);
+        }
+        .input-with-button input[type="email"] {
+            padding-right: 40px; /* Adjust as needed to accommodate the button */
+            border: none; /* Remove border */
+            background-color: #0d5248; /* Transparent background color */
+            border-radius: 30px; /* Rounded corners */
+            width:300px;
+            height: 50px;
+            padding: 20px;
+        }
+    
+        .input-with-button button {
+            position: absolute;
+            top: 10%;
+            right: 2%;
+            padding:10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 20px;
+            /* background-color: rgba(194, 120, 3) */
+
+        }
+        button{
+            color: white;
+        }
+    }
+    .three {
+        padding-left: 20px;
+        ul{
+                margin-left: 100px;
+                li{
+                    padding-left:20px
+                
+                }  
+        }
+        
+             
+            .fa{
+                
+                padding:5px;
+                border:1px solid white;
+                border-radius:20px;
+                
+                ;
+            }
+            .fa-facebook-f{
+                padding-left: 8px;
+                padding-right: 8px;
+                text-align: center;
+            }
+            img{
+                margin:-4px;
+            }
+    }
+    
+      
+    
+}
+footer{
+    background-color:rgb(6,55,48) ; 
+    color: white;
+    font-size: 11px;
+    .row{
+        padding: 8px;
+        .menu li a{
+            color: white;
+
+        }
+        .copy{
+            padding-top:10px;
+        }
+    }
+}
