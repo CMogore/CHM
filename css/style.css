@@ -12,7 +12,7 @@
 
     .logo{
         height: 90px;
-        padding-left: 100px;
+        padding-left: 80px;
         margin-top: 15px;
 
     }
@@ -27,15 +27,16 @@
             background-color: inherit; 
             color:white; 
             margin-top: -100px;
-            margin-left: 300px;
+            margin-left: 100px;
             padding-right: 100px;
             padding-top: -40px;;
 
 
 
             .home{
-                color:orange;
-                border-bottom: 1.5px solid rgb(247,151,33);
+                color:rgb(246,151,33);
+                border-bottom: 1.5px solid rgb(246,151,33);
+                
                 font-family: "Roboto", sans-serif;
                 font-weight: 500;
                 font-style: normal;
@@ -53,7 +54,9 @@
         
         .button{
             color: white;
+            background-color: rgb(246,151,33);
             margin-top: -140px;
+            margin-left: -200px;
             
             border-radius: 20px;
             padding-left: 25px;
@@ -71,8 +74,9 @@
         margin-top: 160px;
 
       .strong{
-        color:orange;
-        border-bottom: 2px dashed orange;
+        color:rgb(246,151,33);
+        border-bottom: 2px dashed rgb(246,151,33);
+        
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-style: normal;
@@ -91,38 +95,16 @@
 
     }
 }
-.wave-container {
-    width: 200px; /* Adjust width of the wave container */
-    height: 800px; /* Adjust height of the wave container */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: rotate(90deg);
 
-}
-
-.wave-svg {
-    width: 100%;
-    height: auto;
-}
-
-.wave-path {
-    fill: none;
-            stroke: orange; /* Color of the wave */
-            stroke-width: 1; /* Width of the wave */
-            stroke-dasharray: 3 3; /* Length of dashes and gaps */
-            stroke-linecap: round; /* Rounded line ends */
-}
 .aboutus{
     padding-top: 20px;
-    padding-bottom: 100px;
 
     .fa-message{
         color:white;
         padding:15px;
         margin-left:1250px;
-        background-color: orange;
-        border:2px solid orange;
+        background-color: rgb(246,151,33);
+        border:2px solid rgb(246,151,33);
         border-radius: 40px;
         transform: rotate(-10deg);
         font-size:25px;
@@ -156,7 +138,7 @@
         }
         button{
             color: white;
-            background-color: rgb(249,174,48);
+            background-color: rgb(246,151,33);
             border-radius: 20px;
             padding-left: 25px;
             padding-right: 25px;
@@ -172,16 +154,29 @@
             height: 300px;
             
         }
+        .strip{
+            transform: scaleY(-1);
+            margin-top: -420px;
+            height:580px;
+            margin-left:230px;
+            width:150px;
+            rotate:calc(5deg);
+            z-index: -2;
+            position: relative;
+            
+        
+        }
     }
     
 }
 .services{
-    padding-top: 100px;
+    padding-top: 0px;
+    margin-left: -16px;
     .top{
         font-weight: 400;
         font-style: normal;
-        font-size: 16px;
-        letter-spacing: 0.2em;
+        font-size: 14px;
+        letter-spacing: 0.3em;
 
         color:rgb(62, 62, 62)
 
@@ -198,47 +193,119 @@
         width: 50px;
         height:50px;
     }
+    .carousel{
     
-    .orbit-container{
-        display:flex;
-        flex-direction: column;
+        .fa{
+            font-size: 30px;
+            color:rgb(246,151,33);
+            padding-right: 5px;
+            margin-top: 10px;
+    
+    
+        }
+        .fa-arrow-right{
+            font-size: 18px;
+            color:rgb(246,151,33);
+            margin-left: 6px;
 
-
-    }
-    .orbit-bullets button {
-        background-color: #ccc;
-        width: 10px; /* Adjust bullet width */
-        height: 10px; /* Adjust bullet height */
-        border-radius: 50%;
-        margin: 0 5px; /* Adjust spacing between bullets */
-        padding: 0;
-    }
-    .orbit-bullets button.is-active {
-        background-color: #333; /* Active bullet color */
-    }
-    .orbit-slide{
-        display:flex;
-        flex-direction: column;
-        display: block;
-        margin-left: 50px;
-            
-
-        .card{
-            width: 320px;
-            height: 330px;
-            border-radius: 10px;
-            
+        }
+        .card-title{
+            margin-left:45px;
+            margin-top:-40px;
+        }
+        a{
+            font-size: 14px;
+            font-weight: 600;
+            font-style: normal;
+            color:rgb(246,151,33);
+        }
+        h5{
+            font-weight: 700;
+            font-style: normal;
+            font-size: 18px;
+        }
+        .img{
+            width: 50px;
+        }
+        p{
+            font-size: 15px;
         }
     }
+    .carousel-inner {
+        padding: 1em;
+        padding-bottom:80px;
+
+
+    
+     
+    
+      }
+      
+      .card {
+        margin: 0 0.5em;
+        border: none;
+        width: 325px;
+        height: 355px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Light gray box shadow */
+        transition: box-shadow 0.3s ease;
+    
+      }
+      
+    
+    .carousel-indicators {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Adjust spacing as needed */
+        
+    }
+    
+    .carousel-indicators button {
+        border: none; /* Remove border */
+        background-color: lightgray; /* Set the default color of the circle */
+        margin: 0 5px; /* Adjust spacing between circles */
+        padding:1px;
+        border-radius: 10px;
+        height: 5px;
+        width: 5px;
+
+        
+        
+    }
+    .carousel-item {
+        transition: transform 0.5s ease; /* Smoothly transition the transform property */
+    }
+    
+    .carousel-item.active {
+        transform: translateX(0); /* Show active item at the center */
+    }
+    
+    
     
 }
+
+.circ{
+    height: 470px;
+    margin-top: -280px;
+    margin-left:390px;
+    transform: rotate(180deg);
+    position: relative;
+    z-index: -1;
+    
+
+}
 .more{
+    margin-top:-175px;
+    padding-top: 80px;
     .top{
-        font-weight: 300;
+        font-weight: 400;
         font-style: normal;
-        font-size: 16px;
-        letter-spacing: 0.4em;
-        color:rgb(75, 75, 75)
+        font-size: 14px;
+        letter-spacing: 0.3em;
+
+        color:rgb(62, 62, 62);
+        margin-left: -80px;
+       
 
     }
     .sub{
@@ -247,10 +314,15 @@
         font-style: normal;
         word-spacing: 0.4rem;
         padding-bottom: 50px;
+        padding-right:200px;
+
+    }
+    .parts{
+        margin-left:200px;
     }
     .second{
         margin-top: -10px;
-        padding-left:10px;
+        padding-right:90px;
 
         .top1{
             font-size: 25px;
@@ -273,10 +345,12 @@
         }
         
         .room{
-            color: orange;
+            color: rgb(246,151,33);
             font-weight: 500;
             font-style: normal;
-            font-size:20px
+            font-size:20px;
+            padding-bottom: -45px;
+
 
         }
         .fa-solid{
@@ -286,15 +360,21 @@
             color: orange;
         }
     }
+    .part1{
+        margin-left: 190px;
+    }
     .first{
         margin-top: 0px;
+
         img{
             width: 500px;
             height: 380px;
+            margin-top: -10px;
+
             
         }
         .a{
-            margin-left:200px;
+            margin-left:185px;
             margin-top:-60px;
             color:white;
             border-bottom:2px solid white;
@@ -307,44 +387,70 @@
 
         }
     }
+    .second{
+        p{
+            font-size:16px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 16px;
+            color:grey;
+        }
+        .bd{
+            margin-top:-10px
+        }
+    }
     .part2{
         margin-top:40px;
         padding-bottom: 40px;
-        padding-left: 10px;
+        padding-left: -10px;
+        padding-right: 180px;
 
         img{
             border-radius: 10px;
-            height:200px
+            height:200px;
+
         }
         p{
-            margin-top: -60px;
+            margin-top: -50px;
             color:white;
             font-weight: 500;
             font-style: normal;
             font-size: 18px;
+
             padding-left: 20px;
         }
     }
     
 
 }
+
+.strip2{
+    height: 130px;
+    margin-left:700px;
+    margin-top: -32px;
+}
 .properties{
+    margin-top: -80px;
     background-color:rgb(2,92,80) ;
     color:white;
     padding-top: 80px;
     padding-bottom: 50px;
+    
 
     .ch{
         font-size:15px;
         opacity:0.4;
+        width:200px;
+        margin-left: 490px;;
 
     }
 
     .cs{
-        font-weight: 300;
+        font-weight: 400;
         font-style: normal;
-        font-size: 16px;
-        letter-spacing: 0.4em;
+        font-size: 14px;
+        letter-spacing: 0.3em;
+
     }
     .prop{
         font-size: 25px;
@@ -380,10 +486,10 @@
     }
     button{
         color: white;
-        background-color: rgb(249,174,48);
+        background-color: rgb(246,151,33);
         border-radius: 20px;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 28px;
+        padding-right: 28px;
         font-weight: 500;
         font-style: normal;
         margin-left: 20px;
@@ -408,10 +514,17 @@
 
         }
         .us{
-            color:orange;
+            color:rgb(246,151,33);
             font-weight: 500;
             font-style: normal;
             font-size: 18px;
+        }
+        .first1{
+            margin-left:-40px;
+        }
+        .col{
+            color:rgb(73, 70, 70);
+            font-size: 14px;
         }
     }
     .second{
@@ -447,8 +560,8 @@
             color: white;
         background-color: rgb(249,174,48);
         border-radius: 20px;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 38px;
+        padding-right: 38px;
         font-weight: 500;
         font-style: normal;
         margin-left: -420px;
@@ -472,8 +585,8 @@
     .image{
         
         margin-top: 50px;
-        height:100px;
-        padding-bottom: 10px;  
+        height:140px;
+        padding-bottom: 50px;  
         
     } 
     hr{
@@ -513,7 +626,7 @@
             border: none; /* Remove border */
             background-color: #0d5248; /* Transparent background color */
             border-radius: 30px; /* Rounded corners */
-            width:300px;
+            width:350px;
             height: 50px;
             padding: 20px;
         }
@@ -580,3 +693,224 @@ footer{
         }
     }
 }
+
+
+
+
+@media (min-width: 768px) {
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 calc(100%/3.9);
+      display: block;
+      
+    }
+    .carousel-inner {
+      display: flex;
+    }
+}
+  .card .img-wrapper {
+      width: 380px;
+      height: 10em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  @media (max-width: 767px) {
+    .card .img-wrapper {
+      height: 17em;
+    }
+    .homepage{
+        .title-bar{
+            background-color: transparent;
+
+        }
+        #responsive-menu{
+            background-color: rgb(73, 73, 73);
+            height:30vh;
+            margin-top: -22px;
+            opacity:0.8;
+
+        }
+        .content{
+            margin-top: 120px;
+        }
+        .menu-icon{
+            margin-left: 280px;
+            margin-top: 10px;
+            
+
+        }
+        .title-bar-title{
+            margin-top: 10px;
+
+
+        }
+        .top-bar-left{
+            img{
+            margin-top: -60px;
+            height: 50px;
+            margin-left:-70px
+            }
+        }
+        .top-bar-right{
+            margin-top: 90px;
+            margin-left: 20px;
+
+            .menu{
+                padding-right: 200px;
+                .home{
+                    margin-left: 10px;
+                }
+            }
+            .button{
+                margin-left:90px;
+            }
+        }
+    }
+    .aboutus{
+
+
+        .fa-message{
+            margin-left: 300px;
+        }
+        .first{
+            
+            margin-left:-50px;
+            margin-top: -5px;
+            .sub{
+                font-size: 20px;
+            }
+
+        }
+        .second{
+            margin-top: 110px;
+            padding-bottom: 50px;
+            .strip{
+                margin-left:150px;
+                height:500px;
+                margin-top: -400px;
+
+            }
+        }
+    }
+    .services{
+        .sub{
+            padding-left:15px;
+            font-size: 23px;
+
+        }
+        .carousel{
+            margin-left:20px;
+            margin-top: -20px;
+        }
+    }
+    .circ{
+        margin-left: 100px;
+        height: 400px
+    }
+    .more{
+        .sub{
+            margin-left: -70px;
+        }
+        .parts{
+            margin-left: 5px;
+        }
+        .first{
+            margin-top: -30px;
+
+            .logo{
+            }
+            img{
+                padding: 10px;
+                height: 300px
+
+            }
+            .a{
+                margin-left: 100px;
+                
+
+            }
+        }
+        .second{
+            margin-left: 20px;
+            padding:20px;
+            margin-top: -20px;
+
+            .top1{
+                font-size: 20px;
+                margin-top: 40px;
+
+            }
+
+        }
+        .part2{
+            padding-right: 10px;
+            .first{
+                padding-bottom: 40px;
+                .logo{
+                    padding: 10px;        
+                    
+                   } 
+            }
+           
+           p{
+            margin-top: -60px;
+            padding-bottom: 20px;
+
+
+           }
+        }
+    }
+    .strip2{
+        margin-left:160px;
+        margin-top:-95px
+    }
+    .properties{
+        margin-top: -60px;
+        .ch{
+            margin-left: 80px;
+            margin-top: -20px;
+            padding-bottom: 10px;
+
+        }
+        .sub{
+            padding-left:20px;
+            padding-right:20px
+
+        }
+        .part2{
+            padding-right: 10px;
+            margin-left: -40px;
+
+            .first{
+                padding-bottom: 20px;
+            }
+        }
+        .but{
+            margin-left: -15px;
+            margin-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+    .cont{
+        margin-top: -30px;
+
+        .first{
+            margin-left: -5px;
+
+            .secs{
+                margin-left: 10px;
+            }
+        }
+        .second{
+            margin-left: -5px;
+            margin-top: 30px;
+
+            .button{
+                margin-left: -180px;
+            }
+
+        }
+    }
+  }
